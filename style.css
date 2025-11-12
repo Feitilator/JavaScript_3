@@ -65,4 +65,10 @@ main{
     font-size: 16px;
     border: 0;
     border-radius: 4px;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.hero__button-1:hover,.hero__button-2:hover,.hero__button-3:hover{
+   filter:brightness(80%);
 }
